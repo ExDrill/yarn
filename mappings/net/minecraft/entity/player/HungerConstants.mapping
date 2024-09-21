@@ -22,6 +22,18 @@ CLASS net/minecraft/class_6075 net/minecraft/entity/player/HungerConstants
 		COMMENT slow healing mechanisms.
 	FIELD field_30713 STARVING_FOOD_LEVEL I
 		COMMENT The maximum food level ({@value}) permitted for the starving mechanism to run.
+	FIELD field_30714 POOR_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
+	FIELD field_30715 LOW_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
+	FIELD field_30716 NORMAL_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
+	FIELD field_30717 GOOD_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
+	FIELD field_30718 MAX_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
+	FIELD field_30719 SUPERNATURAL_SATURATION F
+		COMMENT A value ({@value}) that increases the saturation amount when consumed.
 	METHOD method_59683 calculateSaturation (IF)F
 		ARG 0 nutrition
 		ARG 1 saturationModifier
